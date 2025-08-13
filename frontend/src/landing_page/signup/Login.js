@@ -17,7 +17,7 @@ function Login() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("http://localhost:3002/login", formData);
+            const res = await axios.post("https://trademate-2a46.onrender.com/login", formData);
 
             window.location.href = "http://localhost:3001";
         } catch (err) {

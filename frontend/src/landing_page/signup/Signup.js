@@ -18,8 +18,8 @@ function Signup() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("http://localhost:3002/signup", formData);
-             window.location.href = "http://localhost:3001";
+            const res = await axios.post("https://trademate-2a46.onrender.com/signup", formData);
+            window.location.href = "http://localhost:3001";
         } catch (err) {
             if (err.response) {
                 alert(err.response.data.message);
