@@ -1,0 +1,19 @@
+.navbar-brand{
+    width: 15%;
+}
+
+.navImg{
+    width: 100%;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.nav-link{
+    margin-left: 40px;
+}
+
+.bg-light{
+    background-color: white !important;
+}
